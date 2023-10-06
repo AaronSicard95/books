@@ -1,0 +1,94 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "isbn",
+        "amazon_url",
+        "author",
+        "language",
+        "pages",
+        "publisher",
+        "title",
+        "year"
+    ],
+    "properties": {
+        "isbn": {
+            "type": "string",
+            "default": "",
+            "title": "The isbn Schema",
+            "examples": [
+                "228"
+            ]
+        },
+        "amazon_url": {
+            "type": "string",
+            "default": "",
+            "title": "The amazon_url Schema",
+            "examples": [
+                "https://www.amazon.com/Natashas-Kitchen-Family-Favorite-Recipes-Cookbook/dp/0593579216/ref=zg_sccl_2/143-9363689-6540327?pd_rd_w=4PiLl\u0026content-id=amzn1.sym.193afb92-0c19-4833-86f8-850b5ba40291\u0026pf_rd_p=193afb92-0c19-4833-86f8-850b5ba40291\u0026pf_rd_r=CRNNQT7ERWGGSNGQGPDX\u0026pd_rd_wg=geDKe\u0026pd_rd_r=e22722ed-6bdf-4a55-8b9e-9308f68a7d9a\u0026pd_rd_i=0593579216\u0026psc=1"
+            ]
+        },
+        "author": {
+            "type": "string",
+            "default": "",
+            "title": "The author Schema",
+            "examples": [
+                "My Mom"
+            ]
+        },
+        "language": {
+            "type": "string",
+            "default": "",
+            "title": "The language Schema",
+            "examples": [
+                "english"
+            ]
+        },
+        "pages": {
+            "type": "integer",
+            "default": 0,
+            "title": "The pages Schema",
+            "examples": [
+                9000000
+            ]
+        },
+        "publisher": {
+            "type": "string",
+            "default": "",
+            "title": "The publisher Schema",
+            "examples": [
+                "Harrison Ford Publishing"
+            ]
+        },
+        "title": {
+            "type": "string",
+            "default": "",
+            "title": "The title Schema",
+            "examples": [
+                "Great Poo Bear"
+            ]
+        },
+        "year": {
+            "type": "integer",
+            "default": 0,
+            "title": "The year Schema",
+            "examples": [
+                1985
+            ]
+        }
+    },
+    "examples": [{
+        "isbn": "228",
+        "amazon_url": "https://www.amazon.com/Natashas-Kitchen-Family-Favorite-Recipes-Cookbook/dp/0593579216/ref=zg_sccl_2/143-9363689-6540327?pd_rd_w=4PiLl\u0026content-id=amzn1.sym.193afb92-0c19-4833-86f8-850b5ba40291\u0026pf_rd_p=193afb92-0c19-4833-86f8-850b5ba40291\u0026pf_rd_r=CRNNQT7ERWGGSNGQGPDX\u0026pd_rd_wg=geDKe\u0026pd_rd_r=e22722ed-6bdf-4a55-8b9e-9308f68a7d9a\u0026pd_rd_i=0593579216\u0026psc=1",
+        "author": "My Mom",
+        "language": "english",
+        "pages": 9000000,
+        "publisher": "Harrison Ford Publishing",
+        "title": "Great Poo Bear",
+        "year": 1985
+    }]
+}
+
